@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee8dc;
+    font-family: Georgia, serif;
+    padding: 30px 15px;
+}
+
+
+.menu-container {
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+    background-color: #fffaf0;
+    padding: 35px;
+    border: 5px double #a47b36;
+}
+
+
+
+.restaurant-header {
+    text-align: center;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #a47b36;
+}
+
+.tagline {
+    color: #a47b36;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.restaurant-header h1 {
+    color: #362414;
+    font-size: 42px;
+    font-weight: 900;
+    font-family: Georgia, serif;
+    font-variant: small-caps;
+    text-shadow: 2px 2px 3px #c4a66c;
+    margin: 12px 0;
+}
+
+.subtitle {
+    color: #9b6b2e;
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+
+.timings {
+    color: #777;
+    font-size: 12px;
+    margin-top: 15px;
+    word-spacing: 4px;
+}
+
+
+
+.menu-section {
+    padding: 25px 0;
+    border-bottom: 1px dashed #b99b68;
+}
+
+.menu-section h2 {
+    color: #8a5a21;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.category-description {
+    color: #888;
+    font-size: 13px;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+
+
+
+.menu-item {
+   
+    padding: 12px 0;
+    border-bottom: 1px dotted #d5c5a5;
+}
+
+.menu-item h3 {
+    color: #382719;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.menu-item p {
+    color: #777;
+    font-size: 12px;
+    line-height: 1.6;
+    text-indent: 5px;
+    word-spacing: 2px;
+    text-wrap: wrap;
+}
+
+.menu-item span {
+    color: #9b6b2e;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+  
+}
+
+
+footer {
+    text-align: center;
+    padding-top: 25px;
+}
+
+footer p {
+    color: #8a5a21;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    color: #888;
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 10px;
+    text-transform: none;
+    text-decoration: none;
+}
+
