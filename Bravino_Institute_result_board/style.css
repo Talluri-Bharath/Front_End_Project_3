@@ -1,0 +1,209 @@
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #0B1F3A;
+            font-family: Arial, sans-serif;
+            padding: 40px 15px;
+        }
+
+        .report {
+            width: 650px;
+            max-width: 100%;
+            margin: auto;
+            padding: 35px;
+            background-color: #FFFFFF;
+            border-radius: 12px;
+            border: 3px solid #2563EB;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+      
+
+        .header {
+            text-align: center;
+            padding-bottom: 22px;
+            border-bottom: 2px solid #DBEAFE;
+        }
+
+        .institute {
+            font-size: 28px;
+            font-weight: bold;
+            color: #123C69;
+            letter-spacing: 2px;
+        }
+
+        .tagline {
+            display: block;
+            margin-top: 7px;
+            font-size: 12px;
+            color: #64748B;
+            letter-spacing: 2px;
+        }
+
+        .report-title {
+            margin-top: 22px;
+            font-size: 21px;
+            color: #2563EB;
+            letter-spacing: 1px;
+        }
+
+        .academic-year {
+            margin-top: 8px;
+            color: #64748B;
+            font-size: 13px;
+        }
+
+
+        .section-title {
+            margin-top: 25px;
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #DBEAFE;
+            color: #123C69;
+            font-size: 15px;
+            font-weight: bold;
+            border-left: 4px solid #2563EB;
+        }
+
+        .details {
+            padding: 5px 10px;
+        }
+
+        .detail-row {
+            margin-bottom: 13px;
+            font-size: 14px;
+        }
+
+        .label {
+            display: inline-block;
+            width: 125px;
+            color: #475569;
+            font-weight: bold;
+        }
+
+        .value {
+            color: #0F172A;
+        }
+
+  
+
+        .marks-table {
+            width: 100%;
+            margin-top: 10px;
+            border: 1px solid #BFDBFE;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .table-row {
+            padding: 13px 10px;
+            border-bottom: 1px solid #DBEAFE;
+            font-size: 14px;
+        }
+
+        .table-header {
+            background-color: #123C69;
+            color: #FFFFFF;
+            font-weight: bold;
+        }
+
+        .subject {
+            display: inline-block;
+            width: 48%;
+        }
+
+        .marks {
+            display: inline-block;
+            width: 24%;
+            text-align: center;
+        }
+
+        .grade {
+            display: inline-block;
+            width: 24%;
+            text-align: center;
+        }
+
+      
+
+        .summary {
+            margin-top: 25px;
+            padding: 18px;
+            background-color: #EFF6FF;
+            border: 1px solid #BFDBFE;
+            border-radius: 8px;
+        }
+
+        .summary-row {
+            margin-bottom: 14px;
+            font-size: 14px;
+        }
+
+        .summary-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .summary-label {
+            display: inline-block;
+            width: 55%;
+            color: #475569;
+            font-weight: bold;
+        }
+
+        .summary-value {
+            color: #123C69;
+            font-weight: bold;
+        }
+
+   
+
+        .result {
+            margin-top: 25px;
+            padding: 16px;
+            text-align: center;
+            background-color: #DCFCE7;
+            border: 2px solid #16A34A;
+            border-radius: 8px;
+        }
+
+        .result-label {
+            display: block;
+            color: #166534;
+            font-size: 13px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .result-value {
+            display: block;
+            margin-top: 7px;
+            color: #15803D;
+            font-size: 27px;
+            font-weight: bold;
+        }
+
+        .footer {
+            margin-top: 25px;
+            padding-top: 18px;
+            border-top: 2px solid #DBEAFE;
+            text-align: center;
+        }
+
+        .footer-text {
+            color: #123C69;
+            font-size: 13px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .footer-note {
+            display: block;
+            margin-top: 8px;
+            color: #94A3B8;
+            font-size: 11px;
+        }
